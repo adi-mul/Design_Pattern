@@ -1,5 +1,6 @@
-package Creational_Pattern.Builder_Pattern;
+
 import java.util.*;
+
 class HttpRequest {
     // Required
     private final String url;
@@ -22,12 +23,29 @@ class HttpRequest {
     }
 
     // Getters (optional)
-    public String getUrl() { return url; }
-    public String getMethod() { return method; }
-    public Map<String, String> getHeaders() { return headers; }
-    public Map<String, String> getQueryParams() { return queryParams; }
-    public String getBody() { return body; }
-    public int getTimeout() { return timeout; }
+    public String getUrl() {
+        return url;
+    }
+
+    public String getMethod() {
+        return method;
+    }
+
+    public Map<String, String> getHeaders() {
+        return headers;
+    }
+
+    public Map<String, String> getQueryParams() {
+        return queryParams;
+    }
+
+    public String getBody() {
+        return body;
+    }
+
+    public int getTimeout() {
+        return timeout;
+    }
 
     @Override
     public String toString() {

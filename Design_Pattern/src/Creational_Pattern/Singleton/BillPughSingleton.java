@@ -1,7 +1,7 @@
-package Creational_Pattern.Singleton;
 
 class BillPughSingleton {
-    private BillPughSingleton() {}
+    private BillPughSingleton() {
+    }
 
     // Static inner class that holds the instance
     private static class SingletonHelper {

@@ -1,11 +1,10 @@
-package Creational_Pattern.Singleton;
 
 class DoubleCheckedSingleton {
     // The single instance, initially null, marked as volatile
     private static volatile DoubleCheckedSingleton instance;
 
-    private DoubleCheckedSingleton() {}
-
+    private DoubleCheckedSingleton() {
+    }
 
     public static DoubleCheckedSingleton getInstance() {
         // First check (not synchronized)

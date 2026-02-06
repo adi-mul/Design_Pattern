@@ -1,9 +1,9 @@
-package Creational_Pattern.Singleton;
 
 class StaticBlockSingleton {
     private static StaticBlockSingleton instance;
 
-    private StaticBlockSingleton() {}
+    private StaticBlockSingleton() {
+    }
 
     // Static block for initialization
     static {

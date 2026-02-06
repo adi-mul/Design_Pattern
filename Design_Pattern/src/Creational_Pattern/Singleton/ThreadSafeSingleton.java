@@ -1,10 +1,9 @@
-package Creational_Pattern.Singleton;
 
 class ThreadSafeSingleton {
     private static ThreadSafeSingleton instance;
 
-    private ThreadSafeSingleton() {}
-
+    private ThreadSafeSingleton() {
+    }
 
     public static synchronized ThreadSafeSingleton getInstance() {
         if (instance == null) {

@@ -1,11 +1,11 @@
-package Creational_Pattern.Singleton;
 
 class LazySingleton {
     // The single instance, initially null
     private static LazySingleton instance;
 
     // Private constructor to prevent instantiation
-    private LazySingleton() {}
+    private LazySingleton() {
+    }
 
     // Public method to get the instance
     public static LazySingleton getInstance() {
